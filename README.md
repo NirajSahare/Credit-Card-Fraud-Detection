@@ -34,7 +34,7 @@ The aim is to build robust classifiers, evaluate them using ROC-AUC scores, and 
 9. Isolation Forest
 
 
-##### Model Evaluation:
+#### Model Evaluation:
 
 1. Confusion Matrix
 
@@ -44,14 +44,14 @@ The aim is to build robust classifiers, evaluate them using ROC-AUC scores, and 
 
 4. Performance Comparison
 
-#### Observations:
+### Observations:
 1. Random Forest, LSTM, XGBoost provide better result when considering the ROC-AUC score as the evaluation metric for credit card fraud detection.
 2. Isolation Forest and Autoencoder perform better accuracy when the number of anomalies is significantly lower compared to valid transactions.
 3. However, since the dataset used in this study is fairly balanced, the accuracy of Isolation Forest and Autoencoders is relatively low.
 4. Comparing the ROC-AUC scores of different models, LSTM is 99.26% accurate, outperforming Random Forest which is 98.54% and XGBoost at 98.89% .
 5. The accuracy can be further improved by increasing the sample size or using more advanced deep learning algorithms, though this comes at a higher computational cost. Additionally, implementing complex anomaly detection models could enhance fraud detection accuracy.
 
-#### Future Enhancements
+### Future Enhancements
 1. Hyperparameter Tuning:
 Apply advanced techniques like Grid Search and Bayesian Optimization to fine-tune model parameters for even better performance.
 
